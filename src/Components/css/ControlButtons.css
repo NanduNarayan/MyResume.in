@@ -1,0 +1,7 @@
+.control-btns {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+

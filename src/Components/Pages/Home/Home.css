@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.title{
+    font-family: monospace;
+    font-size: larger;
+    font-weight: 900;
+ }
+.dot{
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+.main-btn{
+    font-family:Albert Sans,monospace ;
+    margin: auto;
+}
+/* #create-btn:hover{
+    box-shadow:rgba(23, 23, 40, 0.25) 0px 13px 27px -5px, rgba(248, 249, 250,0.8) 0px 8px 10px -8px inset; 
+} */
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5rem 1em;
+    background-image:linear-gradient(to bottom right,#212529,#343a40,#495057) ;
+    color: rgba(248, 249, 250,0.9);    
+   height:100%;
+   max-height: 45vh;
+   border-radius: 25px;
+}

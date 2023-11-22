@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home-page{
+    width:95vw;
+    height: 90vh;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.title{
+    font-family: monospace;
+    font-size: larger;
+    font-weight: 900;
+ }
+.dot{
+    color: red;
+}
+.main-btn{
+    font-family:Albert Sans,monospace ;
+    margin: auto;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+    background-image:linear-gradient(to bottom right,#212529,#343a40,#495057) ;
+    color: #f8f9fa;    
+   height:100%;
+   max-height: 30vh;
+   border-radius: 1%;
+}

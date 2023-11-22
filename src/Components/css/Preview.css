@@ -1,0 +1,8 @@
+#paper{
+    font-family: 'Times New Roman', Times, serif; 
+    padding: 1em;
+}
+.MuiTypography-h5{
+    letter-spacing: 0em;
+    padding:5px;
+}
